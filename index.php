@@ -12,14 +12,14 @@
         <?php 
             $colecaoMenu = array(
                 'index'=>'Home ',
-                'marketing'=>'| Marketing',
-                'internet'=>'| Internet',
-                'dinheiro'=>'| Ganhar Dinheiro',
-                'webmaster'=>'| Webmaster',
-                'scripts'=>'| Scripts',
-                'software'=>'| Software',
-                'comercio'=>'| Comércio Eletrônico',
-                'downloads'=>'| Downloads',
+                'marketing'=>'| Marketing ',
+                'internet'=>'| Internet ',
+                'dinheiro'=>'| Ganhar Dinheiro ',
+                'webmaster'=>'| Webmaster ',
+                'scripts'=>'| Scripts ',
+                'software'=>'| Software ',
+                'comercio'=>'| Comércio Eletrônico ',
+                'downloads'=>'| Downloads ',
                 'contato'=>'| Contato',
             );
             Menu($colecaoMenu,"SitePHP");
