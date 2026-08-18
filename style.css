@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 300px;
+    width: 100%;
+    color: gray;
+}
+header ul{
+    float: left;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
