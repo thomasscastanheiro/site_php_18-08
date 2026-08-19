@@ -34,5 +34,8 @@
             Menu($colecaoMenu,"SitePHP");
         ?>
     </header>
+    <main>
+        
+    </main>
 </body>
 </html>
