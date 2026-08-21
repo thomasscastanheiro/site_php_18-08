@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazendo site com PHP</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -39,7 +39,7 @@
             array(
                 'titulo'=>'Niclas Eliasson é o novo reforço!',
                 'descricao'=>'',
-                'imagem'=>'artigo.png',
+                'imagem'=>'niclaseliasson.jpg',
                 'texto'=>'Atacante sueco de 30 anos é contratado pelo Sport Club Internacional!'
             ),
             array(
