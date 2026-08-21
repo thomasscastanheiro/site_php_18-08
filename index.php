@@ -35,32 +35,36 @@
         ?>
     </header>
     <main>
+        <section>
         <?php $colecaoNoticias = array(
             array(
+                'link'=>'niclaseliasson',
                 'titulo'=>'Niclas Eliasson é o novo reforço!',
                 'descricao'=>'',
                 'imagem'=>'niclaseliasson.jpg',
-                'texto'=>'Atacante sueco de 30 anos é contratado pelo Sport Club Internacional!'
+                'texto'=>'Atacante sueco de 30 anos é contratado pelo Sport Club Internacional! "O Inter é gigante. É uma honra fazer parte deste Clube!" Sueco, brasileiro e mais novo colorado, Niclas Eliasson chega ao Inter por empréstimo junto ao AEK, da Grécia, até junho de 2027. Para a TV Inter, o meia-atacante concedeu sua primeira entrevista como atleta do Clube do Povo! "Agradeço essa oportunidade. Sempre sonhei em jogar no Brasil, ainda mais com a camisa de um Clube com tanta história e todo o sucesso que teve. Estou muito feliz. Sempre joguei na Europa, passei por vários países, e agora apareceu essa oportunidade, de vir para este projeto. Estou feliz por fazer parte disso." - Niclas Eliasson'
             ),
             array(
+                'link'=>'',
                 'titulo'=>'',
                 'descricao'=>'',
                 'imagem'=>'artigo.png',
                 'texto'=>''
             ),
             array(
+                'link'=>'',
                 'titulo'=>'',
                 'descricao'=>'',
                 'imagem'=>'artigo.png',
                 'texto'=>''
                 )
             );?>
-        <section>
+        
             <h1>DESTAQUES</h1>
             <img src="<?php echo $colecaoNoticias[0]['imagem']?>" alt="">
             <h2><?php echo $colecaoNoticias[0]['titulo'];?></h2>
             <h3><?php echo $colecaoNoticias[0]['texto']?></h3>
-            <button><a href="<?php echo $colecaoNoticias[0]['titulo']?>.php"></a></button>
+            <button><a href="<?php echo $colecaoNoticias[0]['titulo']?>.php">LER MAIS</a></button>
         </section>
     </main>
 </body>
