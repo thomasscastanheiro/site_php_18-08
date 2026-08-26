@@ -63,5 +63,6 @@
             ?>
         </article>
     </main>
+    <?php echo footer(); ?>
 </body>
 </html>

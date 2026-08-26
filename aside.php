@@ -6,7 +6,7 @@ function busca(){
 
 function maisLidos(){
   return '<div class="maisLidos">
-  <h1>Mais Lidos</h1>
+  <h1>MAIS LIDOS</h1>
   <ul>
   <li>Lorem Ipsum</li>
   <li>Lorem Ipsum</li>
@@ -30,5 +30,8 @@ function galeria(){
 
 function aside(){
    return '<aside>'.busca().maisLidos().galeria().'</aside>';
+}
+function footer(){
+    return '<footer>Webmaster.pt</footer>';
 }
 ?>
