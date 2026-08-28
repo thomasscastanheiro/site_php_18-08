@@ -21,7 +21,15 @@ function Noticias($noticia){
     <h3><?php echo $noticia['texto']?></h3>
     <button><a href="<?php echo $noticia['link']?>.php">LEIA MAIS</a></button>
     <?php
-    
+} 
+function Destaques($noticia){
+    ?>
+    <h1>DESTAQUES</h1>
+    <h2><?php echo $noticia['titulo'];?></h2>
+    <img src="<?php echo $noticia['imagem']?>" alt="">
+    <h3><?php echo $noticia['texto']?></h3>
+    <button><a href="<?php echo $noticia['link']?>.php">LEIA MAIS</a></button>
+    <?php
 } 
 function Artigos($noticia){ ?>
         <div>

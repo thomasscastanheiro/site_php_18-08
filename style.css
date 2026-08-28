@@ -97,6 +97,32 @@ section{
     margin-right: 1%;
     margin-bottom: 1%;
 }
+.sectionMaior{
+    height: 794px;
+    width: 69%;
+    float: left;
+    display: block;
+    background-color: rgb(100, 100, 100);
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.sectionMaior h2{
+    font-size: 33px;
+    margin-left: 30px;
+}
+.sectionMaior img{
+    height: 335px;
+    width: auto;
+    margin: 10px;
+    margin-left: 170px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+    float: left;
+}
+.sectionMaior h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 section img{
     height: 335px;
     width: auto;
